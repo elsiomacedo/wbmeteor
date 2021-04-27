@@ -9,7 +9,7 @@ export const Task = () => {
       <h2>Lista de Tarefas</h2>
       <ul>
         {tasks.map((task) => 
-            <li>{task._id} {task.text}</li>
+            <li>{task._id} - {task.text}</li>
         )}
         </ul>
     </div>
